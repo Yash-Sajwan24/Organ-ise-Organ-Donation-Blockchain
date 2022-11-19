@@ -1,0 +1,59 @@
+.navbar-brand{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    font-family: 'Syne Mono', monospace;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.back{
+    /* background-color: yellow; */
+    background: url("https://img.freepik.com/premium-photo/black-stone-texture-dark-slate-background-top-view_88281-1206.jpg?w=2000");
+    background-size: cover;
+    /* background-color: yellow; */
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back2{
+    width: 800px;
+    background: url("https://wallpaperaccess.com/full/1129027.jpg");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+
+.btn{
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 35px;
+    background-color: black;
+    border: 5px solid lightcoral;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Syne Mono', monospace; */
+}
+
+.btn:hover{
+    background-color: lightcoral;
+    color: white;
+    border: 5px solid black;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+
+
+
