@@ -43,9 +43,10 @@ const Database = (props) => {
     /* Simple example */
     
     return(
-        <div>
+        <div className="back">
+          <div className="back2">
             <h1>{props.title}</h1>
-            <p>{params.databaseId.toUpperCase()}</p>
+            <p className="param">{params.databaseId.toUpperCase()}</p>
             <div className="container mt-5">
 
           <div className="row d-flex justify-content-center ">
@@ -55,9 +56,9 @@ const Database = (props) => {
                 <div className="card">
                   
                   <div className="input-box">
-                    <input type="text" className="form-control"/>
+                    <input type="text" className="form-control" placeholder="Enter patient ID"/>
                     <i className="fa fa-search"></i> 
-                    <button onClick={fetchData}>Fetch</button>                   
+                    <button className="fetch" onClick={fetchData}>Fetch</button>                   
                   </div>
 
      
@@ -122,6 +123,7 @@ const Database = (props) => {
           
         </div>
         </div>
+          </div>
     )
 }
 

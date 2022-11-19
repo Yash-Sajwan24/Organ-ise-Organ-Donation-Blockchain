@@ -21,7 +21,7 @@ body{
     color:#ced4da;
   
   }
-  
+
   .form-control{
   
     height: 50px;
@@ -57,4 +57,31 @@ body{
   .list small{
   
     color:#dedddd;
+  }
+
+  .fetch{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    border: 5px solid #512da8;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Syne Mono', monospace;
+  }
+  .fetch:focus{
+    color: white;
+    background-color: #512da8;
+  }
+
+  .back2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .param{
+    font-size: 40px;
+    color: white;
+    font-family: 'Syne Mono', monospace;
   }
