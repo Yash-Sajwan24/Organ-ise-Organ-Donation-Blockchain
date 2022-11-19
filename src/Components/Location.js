@@ -10,14 +10,15 @@ const Location =()=>{
   </div>
   <div className="container px-5 py-24 mx-auto flex">
     <div className="lg:w-1/3 md:w-1/2 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
-    <img src="https://solana.com/src/img/branding/solanaLogo.png" alt="Logo" width="30"height="24" className="d-inline-block align-text-top"/>      <p className="leading-relaxed mb-5">Payment Successful</p>
+    <img src="https://solana.com/src/img/branding/solanaLogo.png" alt="Logo" height="24" className="d-inline-block align-text-top"/>      <p className="leading-relaxed mb-5">Payment Successful</p>
       
       <p className="text-xs text-gray-400 text-opacity-90 mt-3">For more payments</p>
       <WalletMultiButton />
-
+    
     </div>
   </div>
 </section>
+
         </div>
     )
 }

@@ -25,6 +25,12 @@ module.exports = function (config, env) {
             new ProvidePlugin({
                 process: 'process/browser',
             }),
+            new ProvidePlugin({
+                Buffer: ['buffer', 'Buffer'],
+            }),
+            new ProvidePlugin({
+                process: 'process/browser',
+            }),
         ],
         resolve: {
             ...config.resolve,

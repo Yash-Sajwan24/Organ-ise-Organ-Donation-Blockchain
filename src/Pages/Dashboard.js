@@ -26,7 +26,7 @@ const Dashboard = () => {
             <Link to="/database/d1"><ViewButtons title="View Patients"/></Link>
           <Link to="/database/d2"><ViewButtons2 title="View Donors"/></Link>
           </Route>
-
+         
           <Route exact path="/location">
             <Location />
           </Route>

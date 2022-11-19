@@ -7,7 +7,14 @@ import {
  } from '@solana/wallet-adapter-wallets';
 import { clusterApiUrl } from '@solana/web3.js';
 import React, { FC, ReactNode, useMemo } from 'react';
+import AboutUs from './Components/AboutUs';
+import Footer from './Components/Footer';
+import MyTeam from './Components/MyTeam';
 import Dashboard from './Pages/Dashboard';
+import * as buffer from 'buffer';
+
+window.Buffer = buffer.Buffer;
+
 
 require('./App.css');
 require('@solana/wallet-adapter-react-ui/styles.css');
@@ -16,6 +23,9 @@ const App: FC = () => {
     return (
         <Context>
             <Dashboard/>
+            <AboutUs/>
+            <MyTeam/>
+            <Footer/>
         </Context>
     );
 };
@@ -23,7 +33,7 @@ export default App;
 
 const Context: FC<{ children: ReactNode }> = ({ children }) => {
     // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
-    const network = WalletAdapterNetwork.Devnet;
+    const network = WalletAdapterNetwork.Mainnet;
 
     // You can also provide a custom RPC endpoint.
     const endpoint = useMemo(() => clusterApiUrl(network), [network]);
