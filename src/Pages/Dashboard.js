@@ -2,6 +2,7 @@ import { Link, Route, Switch, useHistory } from "react-router-dom";
 import Button from "../Components/Button";
 import Database from "../Components/Database";
 import LoginForm from "../Components/LoginForm";
+import Location from "../Components/Location";
 import Navbar from "../Components/Navbar";
 import ViewButtons from "../Components/ViewButtons";
 import ViewButtons2 from "../Components/ViewButtons2";
@@ -14,7 +15,7 @@ const Dashboard = () => {
   return (
     <div>
       <Navbar />
-      <button onClick={handleHistory} type="button" class="btn btn-dark">Back</button>
+      <button onClick={handleHistory} type="button" className="btn btn-dark backk">Home</button>
       <main>
         <Switch>
           <Route exact path="/">
@@ -24,6 +25,10 @@ const Dashboard = () => {
             <ViewButtons title="View Donors"/> */}
             <Link to="/database/d1"><ViewButtons title="View Patients"/></Link>
           <Link to="/database/d2"><ViewButtons2 title="View Donors"/></Link>
+          </Route>
+
+          <Route exact path="/location">
+            <Location />
           </Route>
           
           <Route exact path="/form">

@@ -6,6 +6,9 @@
     background: url("https://wallpaperaccess.com/full/1129027.jpg");
     padding: 50px;
     width: 800px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* background: yellow; */
 }
 .center{
     display: flex;
@@ -14,7 +17,8 @@
 }
 
 .background{
-    background: url("https://img.freepik.com/premium-photo/black-stone-texture-dark-slate-background-top-view_88281-1206.jpg?w=2000");
+    background: url("https://wallpaperaccess.com/full/1129027.jpg");
+    /* background: url("https://img.freepik.com/premium-photo/black-stone-texture-dark-slate-background-top-view_88281-1206.jpg?w=2000"); */
 }
 
 label{
@@ -27,8 +31,12 @@ label{
     border:5px solid black;
     font-weight: 400;
     margin-bottom: 30px;
+    background-color: white;
 }
 
+.form-control:focus{
+    background-color: white;
+}
 .form-label{
     display: block;
     margin: 0px;
@@ -52,7 +60,13 @@ label{
 }
 
 .center .btn{
-    margin-top:110px;
+    margin-top:50px;
     padding: 10px;
     width: 300px;
+}
+
+@media only screen and (max-width:1045px){
+    .row{
+        width: 600px;
+    }
 }

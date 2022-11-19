@@ -1,5 +1,6 @@
 import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar= () => {
     return(
@@ -7,9 +8,16 @@ const Navbar= () => {
             <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
                 {/* <a className="navbar-brand" href="/"/> */}
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsolana.com%2Fbranding&psig=AOvVaw1DImEe2VhGRVvVw87KQLXN&ust=1668935879104000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCj5uP0ufsCFQAAAAAdAAAAABAT" alt="Logo" width="30" height="24" className="d-inline-block align-text-top"/>
+                <img src="https://solana.com/src/img/branding/solanaLogo.png"/>
                 Organ Donation BlockChain
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <NavLink className="nav-link active" aria-current="page" to="/location">Location</NavLink>
+                </li>
+                </ul>
+
                 <WalletMultiButton />
+
             </div>
 </nav>
         </div>

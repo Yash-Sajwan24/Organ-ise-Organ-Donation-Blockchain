@@ -1,8 +1,10 @@
 import { useParams } from "react-router-dom";
 import './Database.css';
-
+// import ReactSearchBox from "react-search-box";
+import SelectSearch from 'react-select-search';
 import axios from "axios"
 import { useState } from "react";
+import 'react-select-search/style.css'
 
 const Database = (props) => {
     const params = useParams();
@@ -16,71 +18,99 @@ const Database = (props) => {
         try {
             const {data} = await axios.get("https://cors-anywhere.herokuapp.com/https://www.communitybenefitinsight.org/api/get_hospitals.php?state=NC")
             console.log({data});
-            setHospitals(data)
+            setHospitals(data.map(x => ({
+                name: x.name,
+                value: x.hospital_id
+            })))
         } catch (error) {
             console.log({error});
         }
     }
+    
 
+    const options = [
+        {name: 'Swedish', value: 'sv'},
+        {name: 'English', value: 'en'},
+        {
+            type: 'group',
+            name: 'Group name',
+            items: [
+                {name: 'Spanish', value: 'es'},
+            ]
+        },
+    ];
+    
+    /* Simple example */
+    
     return(
         <div>
             <h1>{props.title}</h1>
             <p>{params.databaseId.toUpperCase()}</p>
-            <div class="container mt-5">
+            <div className="container mt-5">
 
-          <div class="row d-flex justify-content-center ">
+          <div className="row d-flex justify-content-center ">
 
-            <div class="col-md-6">
+            <div className="col-md-6">
 
-                <div class="card">
+                <div className="card">
                   
-                  <div class="input-box">
-                    <input type="text" class="form-control"/>
-                    <i class="fa fa-search"></i> 
+                  <div className="input-box">
+                    <input type="text" className="form-control"/>
+                    <i className="fa fa-search"></i> 
                     <button onClick={fetchData}>Fetch</button>                   
                   </div>
 
+     
+<SelectSearch options={hospitals} value="sv" name="language" placeholder="Choose your nearest hospital" />
 
-                  <div class="list border-bottom">
+                  {/* <ReactSearchBox
+                   placeholder="Placeholder"
+                   value="Doe"
+                   data={[]}
+                   callback={(record) => console.log(record)}
+                  /> */}
 
-                    <i class="fa fa-fire"></i>
-                    <div class="d-flex flex-column ml-3">
+
+                  <div className="list border-bottom">
+
+                    <i className="fa fa-fire"></i>
+                    <div className="d-flex flex-column ml-3">
                       <span>Client communication policy</span> 
-                      <small>{hospitals[0].hospital_id}</small>
+                      {/* <small>{hospitals[0].hospital_id}</small> */}
                     </div>                   
                   </div>
 
 
-                  <div class="list border-bottom">
+                  <div className="list border-bottom">
 
-                    <i class="fa fa-yelp"></i>
-                    <div class="d-flex flex-column ml-3">
+                    <i className="fa fa-yelp"></i>
+                    <div className="d-flex flex-column ml-3">
                       <span>Major activity done</span> 
-                      <small>{hospitals[1].hospital_id}</small>
+                      {/* <small>{hospitals[1].hospital_id}</small> */}
                     </div>                   
                   </div>
 
 
 
 
-                  <div class="list border-bottom">
+                  <div className="list border-bottom">
 
-                    <i class="fa fa-fire"></i>
-                    <div class="d-flex flex-column ml-3">
+                    <i className="fa fa-fire"></i>
+                    <div className="d-flex flex-column ml-3">
                       <span>Calling to USA Clients</span> 
-                      <small>{hospitals[2].hospital_id}</small>
+                      {/* <small>{hospitals[2].hospital_id}</small> */}
                     </div>                   
                   </div>
 
 
 
 
-                  <div class="list">
+                  <div className="list">
 
-                    <i class="fa fa-weibo"></i>
-                    <div class="d-flex flex-column ml-3">
+                    <i className="fa fa-weibo"></i>
+                    <div className="d-flex flex-column ml-3">
                       <span>Client communication policy</span> 
-                      <small>{hospitals[3].hospital_id}</small>
+                      {/* <small>{hospitals[3].hospital_id}</small> */}
                     </div>                   
                   </div>
 
