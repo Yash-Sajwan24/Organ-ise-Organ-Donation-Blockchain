@@ -31,17 +31,14 @@ const Navbar= () => {
                 {/* <a className="navbar-brand" href="/"/> */}
                 <img src="https://solana.com/src/img/branding/solanaLogo.png"/>
                 Organ Donation BlockChain
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                <div className="nav-item">
                   <NavLink className="nav-link active" aria-current="page" to="/location">Location</NavLink>
-                </li>
-                </ul>
+                </div>
 
                 <WalletMultiButton />
                 <button className="transButton" onClick={click}>
                         Deposit Entry Fees
                     </button>
-
             </div>
 </nav>
         </div>

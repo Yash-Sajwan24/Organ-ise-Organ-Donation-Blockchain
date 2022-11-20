@@ -4,8 +4,7 @@ body{
   }
   
   .card{
-  
-    background-color: #fff;
+    background-color: #111827;
     padding: 15px;
     border:none;
   }
@@ -60,7 +59,7 @@ body{
   }
 
   .fetch{
-    color: black;
+    color: white;
     font-size: 30px;
     font-weight: 600;
     border: 5px solid #512da8;
@@ -76,11 +75,13 @@ body{
 
   .back2{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   .param{
+    margin-top: 20px;
     font-size: 40px;
     color: white;
     font-family: 'Syne Mono', monospace;

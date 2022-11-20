@@ -1,5 +1,6 @@
 .container-fluid{
     font-size: 30px;
+    margin-left: 0px;
     color: white;
     padding: 10px;
     /* font-family: 'Syne Mono', monospace; */
@@ -8,15 +9,20 @@
 }
 
 .nav-item{
-    margin-left:100% ;
     font-size: 20px;
-    width: 200px;
-    margin-left: 100px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
     background-color:#212529;
     border: 5px solid #512da8;
     border-radius: 25px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
+}
+
+.navbar-custom{
+    background-color: black;
 }
 
 .nav-item:hover{
@@ -58,14 +64,14 @@ img{
 }
 
 
-
 .btn{
     width: 400px;
     padding: 20px;
     margin: 15px;
     font-size: 35px;
-    background-color: black;
-    border: 5px solid #512da8;
+    background-color: #1f2937;
+    border: 0px;
+    /* border: 5px solid #512da8; */
     border-radius: 25px;
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Syne Mono', monospace;
@@ -76,13 +82,14 @@ img{
 .btn:hover{
     background-color: #512da8;
     color: white;
-    border: 5px solid black;
+    border: 5px solid #111827;
     font-weight: 600;
     transition: 0.2s ease-in;
 }
 
+
 .transButton{
-    width: 300px;
+    width: 250px;
     padding: 10px;
     margin: 15px;
     font-size: 20px;
@@ -98,6 +105,13 @@ img{
     font-weight: 600;
 }
 
+.submitbutton{
+    border: 5px solid #512da8 ;
+}
+
+.submitbutton:hover{
+    border: 5px solid #1f2937;
+}
 
 .backk{
     position: absolute;

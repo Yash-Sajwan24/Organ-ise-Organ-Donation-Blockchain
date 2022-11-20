@@ -29,7 +29,7 @@ const LoginForm = () => {
                 <input type="number" className='agee' id="age" name="quantity" min="1" max="99" maxlength = "2" />
                 </div>
                 <div></div>
-                <button type="button" class="btn btn-dark">Submit</button>
+                <button type="button" className="btn btn-dark submitbutton">Submit</button>
             </div>
             
             </div>
