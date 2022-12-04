@@ -15,7 +15,7 @@ const Dashboard = () => {
   return (
     <div>
       <Navbar />
-      <button onClick={handleHistory} type="button" className="btn btn-dark backk">Home</button>
+      <button onClick={handleHistory} type="button" className="btn btn-dark backk">🔙</button>
       <main>
         <Switch>
           <Route exact path="/">
