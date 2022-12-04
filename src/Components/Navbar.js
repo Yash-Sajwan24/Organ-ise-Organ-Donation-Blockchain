@@ -28,9 +28,12 @@ const Navbar= () => {
         <div>
             <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
-                {/* <a className="navbar-brand" href="/"/> */}
+                <a className="navbar-brand" href="/">
                 <img src="https://solana.com/src/img/branding/solanaLogo.png"/>
+                </a>
+                <a className="navbar-brand" href="/">
                 Organ Donation BlockChain
+                </a>
                 <div className="nav-item">
                   <NavLink className="nav-link active" aria-current="page" to="/location">Location</NavLink>
                 </div>

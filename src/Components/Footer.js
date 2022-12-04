@@ -2,7 +2,7 @@ const Footer = () =>{
     return(
         <div>
           <footer className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+  <div className="container footer-edit px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
     <img src="https://solana.com/src/img/branding/solanaLogo.png"/>
     </a>
