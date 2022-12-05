@@ -9,7 +9,7 @@ import 'react-select-search/style.css'
 const Database = (props) => {
   const params = useParams();
 
-  console.log(params.databaseId);
+  
 
   const [hospitals, setHospitals] = useState([])
 
@@ -17,7 +17,7 @@ const Database = (props) => {
   const fetchData = async () => {
     try {
       const { data } = await axios.get("https://cors-anywhere.herokuapp.com/https://www.communitybenefitinsight.org/api/get_hospitals.php?state=NC")
-      console.log({ data });
+      
       setHospitals(data.map(x => ({
         name: x.name,
         value: x.hospital_id

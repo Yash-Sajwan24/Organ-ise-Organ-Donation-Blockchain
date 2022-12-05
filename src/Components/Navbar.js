@@ -22,7 +22,7 @@ const Navbar= () => {
 
         // Sign transaction, broadcast, and confirm
         const signature = await wallet.sendTransaction(transaction, connection);
-        console.log('SIGNATURE', signature);
+        
     }
     return(
         <div>
