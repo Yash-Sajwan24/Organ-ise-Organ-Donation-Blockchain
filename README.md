@@ -1,46 +1,66 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Organ-ise Organ Donation Blockchain
 
-## Available Scripts
+The proposed system digitalizes the process of Organ Donation, enhances the existing system by
+handling endless data and provides a transparent as well as cost efficient system. 
 
-In the project directory, you can run:
 
-### `npm start`
+## Video demo of the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+https://user-images.githubusercontent.com/52412969/210129109-9cdc0de8-f4b0-4d1e-9ade-93bc61df743d.mp4
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img  alt="Coding" width="300" src="https://user-images.githubusercontent.com/52412969/210129154-2d898efe-fa27-44cf-83d8-fb1f658d876a.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Build and Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the project
+```bash
+  git clone https://github.com/Yash-Sajwan24/Organ-ise-Organ-Donation-Blockchain.git
+```
+Go to the project directory
+```bash
+  cd Organ-ise-Organ-Donation-Blockchain
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install dependencies
+```bash
+  npm install
+```
+Start the server
+```bash
+  npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## About the Source code
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tech Stacks used:
+
+Solana, ReactJS, Figma, WEB3.js, API, Phantom, QuickNode, CSS, Tailwind, Bootstrap
+
+### About the project:
+The proposed System
+is faster, more secure and more scalable. The organ receiver and donor can be sure of the authenticity
+of the other without hesitation. The Organ Donation System does not allow any third-party access. The
+system eliminates the corruption in department of organ donation through a transparent system and the
+patients will be able to get the organ before it is too late.
+
+## Blog
+
+Solana x SuperteamDAO Hackathon Winning experience:
+https://medium.com/@shreyanbharadwaj/solana-x-superteamdao-hackathon-winning-experience-be82effd9963
+
+## Motivation
+
+Organ donation being the most noble deed requires revolutionization. Our Project provides an efficient platform for potential organ doners and those who need the organs to connect. It uses Blockchain as its
+underlying Technology. Blockchain Technology is as it is known a decentralized and distributed network which stores records that are immutable as in cannot be altered once saved.
