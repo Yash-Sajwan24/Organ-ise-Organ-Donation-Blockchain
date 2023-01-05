@@ -40,7 +40,19 @@ Start the server
 ```bash
   npm start
 ```
+## Phanton Wallet
 
+You may also need to install phantom wallet to download phantom wallet 
+on your machine. Follow the link below for the same.
+
+https://phantom.app/download
+
+## Sol
+
+You would also need some testnet/devnet sol for that you can visit the link 
+of the faucet given below.
+
+https://solfaucet.com/
 
 ## About the Source code
 
@@ -58,6 +70,7 @@ patients will be able to get the organ before it is too late.
 ## Blog
 
 Solana x SuperteamDAO Hackathon Winning experience:
+
 https://medium.com/@shreyanbharadwaj/solana-x-superteamdao-hackathon-winning-experience-be82effd9963
 
 ## Motivation
