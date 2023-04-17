@@ -67,6 +67,11 @@ of the other without hesitation. The Organ Donation System does not allow any th
 system eliminates the corruption in department of organ donation through a transparent system and the
 patients will be able to get the organ before it is too late.
 
+## Blog
+
+Solana x SuperteamDAO Hackathon Winning experience:
+
+https://medium.com/@shreyanbharadwaj/solana-x-superteamdao-hackathon-winning-experience-be82effd9963
 
 
 ## Motivation
