@@ -1,12 +1,12 @@
 
 # Organ-ise Organ Donation Blockchain
 
-The proposed system digitalizes the process of Organ Donation, enhances the existing system by
-handling endless data and provides a transparent as well as cost efficient system. 
+Welcome to Organ-ise Organ Donation Blockchain, an innovative solution that digitalizes organ donation. This system enhances the existing organ donation framework by introducing transparency, scalability, and security through blockchain technology.
 
 
-## Video demo of the project
 
+## Video Demo
+Watch the project in action through our demo video:
 
 
 https://user-images.githubusercontent.com/52412969/210129109-9cdc0de8-f4b0-4d1e-9ade-93bc61df743d.mp4
@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/52412969/210129109-9cdc0de8-f4b0-4d1e-
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Follow these instructions to set up and run the Organ-ise Organ Donation Blockchain project on your local machine for development and testing purposes.
 
 ### Build and Run Locally
 
@@ -40,41 +40,47 @@ Start the server
 ```bash
   npm start
 ```
-## Phanton Wallet
+### Additional Setup
 
-You may also need to install phantom wallet to download phantom wallet 
-on your machine. Follow the link below for the same.
+1. Install Phantom Wallet:
 
-https://phantom.app/download
+   You may need to install Phantom Wallet to download the wallet on your machine. Follow the link below for the same.
+   [Download Phantom Wallet](https://phantom.app/download)
 
-## Sol
+2. Obtain Sol:
 
-You would also need some testnet/devnet sol for that you can visit the link 
-of the faucet given below.
+   You would also need some testnet/devnet sol. You can visit the link of the faucet given below to obtain it.
+   [Sol Faucet](https://solfaucet.com/)
 
-https://solfaucet.com/
 
-## About the Source code
+## Tech Stack
 
-### Tech Stacks used:
+Organ-ise Organ Donation Blockchain leverages the following technologies:
 
-Solana, ReactJS, Figma, WEB3.js, API, Phantom, QuickNode, CSS, Tailwind, Bootstrap
+- Solana
+- ReactJS
+- Figma
+- WEB3.js
+- API
+- Phantom Wallet
+- QuickNode
+- CSS
+- Tailwind
+- Bootstrap
 
-### About the project:
-The proposed System
-is faster, more secure and more scalable. The organ receiver and donor can be sure of the authenticity
-of the other without hesitation. The Organ Donation System does not allow any third-party access. The
-system eliminates the corruption in department of organ donation through a transparent system and the
-patients will be able to get the organ before it is too late.
+## About the Project
+
+The proposed system revolutionizes organ donation by ensuring authenticity, transparency, and efficiency. Donors and recipients can connect securely without intermediaries, eliminating corruption and delays. The system utilizes blockchain's decentralized and immutable nature to provide a trustworthy platform for organ donation.
 
 ## Blog
 
-Solana x SuperteamDAO Hackathon Winning experience:
+Read about our Solana x SuperteamDAO Hackathon Winning experience:
+[Read Blog](https://medium.com/@shreyanbharadwaj/solana-x-superteamdao-hackathon-winning-experience-be82effd9963)
 
-https://medium.com/@shreyanbharadwaj/solana-x-superteamdao-hackathon-winning-experience-be82effd9963
 
 
 ## Motivation
 
-Organ donation being the most noble deed requires revolutionization. Our Project provides an efficient platform for potential organ doners and those who need the organs to connect. It uses Blockchain as its
-underlying Technology. Blockchain Technology is as it is known a decentralized and distributed network which stores records that are immutable as in cannot be altered once saved.
+Our project is driven by the need for innovation in organ donation. By utilizing blockchain technology, we aim to create an efficient and secure platform that facilitates the connection between potential donors and recipients. Blockchain's inherent decentralization and immutability make it a perfect fit for ensuring the integrity of organ donation processes.
+
+Join us in revolutionizing organ donation with cutting-edge technology!
